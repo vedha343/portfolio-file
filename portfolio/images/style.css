@@ -1,0 +1,68 @@
+{
+
+     margin: 0;
+     padding: 0;
+     box-sizzing: border-box;
+}
+.hero{
+     height: 100vh;
+     width: 100%;
+     backgroung:rgb(224, 206, 206);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     position: relative;
+
+}
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20;
+}
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+}
+nav ul li a:hover{
+    color: brown;
+}
+.info{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.info h1{
+    font-size:40px;
+    color: blue;
+    margin-bottom: 20px;
+}
+.info p{
+    color: blue;
+    line-height: 22px;
+
+}
+.info a{
+    background-color: burlywood;
+    padding:10px 18px;
+    text-decoration: none;
+    color: cornsilk;
+    display: inline-block;
+    margin:30px 0;
+    border-radius: 20px;
+
+}
+.right-img img{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+}
